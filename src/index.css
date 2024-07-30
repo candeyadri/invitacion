@@ -12,4 +12,7 @@
   .fecha {
     @apply flex flex-col justify-center items-center font-serif  text-fondo
   }
+  .conteiner_info{
+    @apply  flex w-[100%] h-[15vh] justify-between px-10 text-base align-middle
+  }
 }

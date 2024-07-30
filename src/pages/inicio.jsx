@@ -93,12 +93,42 @@ function Inicio (){
                 <div className="w-[100vw]">
                     <img src="./images/Foto7.svg" alt="" />
                 </div>
-                <section className=" w-[100vw]">
+                <section className=" w-[100vw] relative ">
+                        <div className="    w-[100vw] absolute z-10">
+                            <img className=" w-[75vw] mx-auto -mt-5" src="./images/informacion.svg" alt="" />
+                            <section>
+                                <ul className=" space-y-3 mt-10">
+                                    <li className="conteiner_info">
+                                        <img className="icono_info h-[80%]" src="./images/acta.svg" alt="" />
+                                        <div className="pr-5 font-serif">
+                                            <img className="h-[50%]"  src="./images/civil.svg" alt="" />
+                                            <p className="-mt-5">14 de febrero del 2025</p>
+                                            <p>09:00hs - Italia 95</p>
+                                        </div>
+                                    </li>
+                                    <li className="conteiner_info">
+                                        <img  className="h-[80%]" src="./images/iglesia.svg" alt="" />
+                                        <div className="pr-5 font-serif">
+                                            <img className="h-[50%]" src="./images/ceremonia.svg" alt="" />
+                                            <p>15 de febrero del 2025</p>
+                                            <p>20:00hs - Lavalle 930</p>
+                                        </div>
+                                    </li>
+                                    <li className="conteiner_info">
+                                        <img className="h-[80%]" src="./images/fiesta.svg" alt="" />
+                                        <div className="pr-5 font-serif">
+                                            <img className="h-[50%]" src="./images/fiesta_1.svg" alt="" />
+                                            <p>Al finalizar la</p>
+                                            
+                                            <p>ceremonia-Club Social</p>
+                                            <p>Guardia Nacional 50</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </section>
+                        </div>
                         <div className="w-[250vw] overflow-hidden -mt-20">
                             <img src="./images/fondoV.svg" alt="" />
-                        </div>
-                        <div className=" mx-auto content-center w-[75vw] -mt-10">
-                            <img src="./images/informacion.svg" alt="" />
                         </div>
                 </section>
             </main>
