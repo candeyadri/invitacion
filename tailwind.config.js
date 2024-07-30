@@ -14,8 +14,12 @@ export default {
     fontFamily: {
       'poppins': ['Poppins', 'sans-serif'],
       'serif': ['DM Serif Display', 'serif'],
+      'cormorant': ['Cormorant', 'serif']
     },
     extend: {
+      backgroundImage: {
+        'fondoVerde': 'url(./images/fondoV.svg)',
+      }
 
     },
   },
