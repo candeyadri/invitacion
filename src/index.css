@@ -15,4 +15,7 @@
   .conteiner_info{
     @apply  flex w-[100%] h-[15vh] justify-between px-10 text-base align-middle
   }
+  .conteiner_info_col{
+    @apply  flex flex-col w-[100%] h-[20vh] justify-between px-10 text-base align-middle
+  }
 }

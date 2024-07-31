@@ -11,13 +11,13 @@ function Inicio (){
                     </div>
                     <div className=" bg-rojo w-full h-[50vh]">
                         <div className=" mx-auto content-center w-[50vw] -mt-10">
-                            <img src="./images/cande+adri.svg" alt="" />
+                            <img src="./images/carteles/cande+adri_1.svg" alt="" />
                         </div>
                         <div className=" mx-auto w-[40vw]">
-                            <img src="./images/nos_casamos.svg" alt="" />
+                            <img src="./images/frases/nosCasamos.svg" alt="" />
                         </div>
                         <div className=" mx-auto w-[60vw] mt-2">
-                            <img src="./images/fecha.svg" alt="" />
+                            <img src="./images/carteles/15febrero.svg" alt="" />
                         </div>
                         <section className=" mx-auto p-10  ">
                             <h1 className="font-serif text-xl text-center  text-fondo">Faltan</h1>
@@ -46,7 +46,7 @@ function Inicio (){
                 </header>
                 <section>
                     <div className=" mx-auto -mt-5 w-[70vw]">
-                        <img src="./images/nuestra_historia.svg" alt="" />
+                        <img src="./images/carteles/historia_1.svg" alt="" />
                     </div>
                     <ul className=" grid grid-cols-3 mx-auto w-[90vw] h-[10vh] ">
                         
@@ -95,13 +95,13 @@ function Inicio (){
                 </div>
                 <section className=" w-[100vw] relative ">
                         <div className="    w-[100vw] absolute z-10">
-                            <img className=" w-[75vw] mx-auto -mt-5" src="./images/informacion.svg" alt="" />
+                            <img className=" w-[75vw] mx-auto -mt-5" src="./images/carteles/importante.svg" alt="" />
                             <section>
                                 <ul className=" space-y-3 mt-10">
                                     <li className="conteiner_info">
                                         <img className="icono_info h-[80%]" src="./images/acta.svg" alt="" />
                                         <div className="pr-5 font-serif">
-                                            <img className="h-[50%]"  src="./images/civil.svg" alt="" />
+                                            <img className="h-[50%]"  src="./images/frases/civil.svg" alt="" />
                                             <p className="-mt-5">14 de febrero del 2025</p>
                                             <p>09:00hs - Italia 95</p>
                                         </div>
@@ -109,7 +109,7 @@ function Inicio (){
                                     <li className="conteiner_info">
                                         <img  className="h-[80%]" src="./images/iglesia.svg" alt="" />
                                         <div className="pr-5 font-serif">
-                                            <img className="h-[50%]" src="./images/ceremonia.svg" alt="" />
+                                            <img className="h-[50%]" src="./images/frases/ceremonia.svg" alt="" />
                                             <p>15 de febrero del 2025</p>
                                             <p>20:00hs - Lavalle 930</p>
                                         </div>
@@ -117,7 +117,7 @@ function Inicio (){
                                     <li className="conteiner_info">
                                         <img className="h-[80%]" src="./images/fiesta.svg" alt="" />
                                         <div className="pr-5 font-serif">
-                                            <img className="h-[50%]" src="./images/fiesta_1.svg" alt="" />
+                                            <img className="h-[50%]" src="./images/frases/fiesta.svg" alt="" />
                                             <p>Al finalizar la</p>
                                             
                                             <p>ceremonia-Club Social</p>
@@ -130,6 +130,32 @@ function Inicio (){
                         <div className="w-[250vw] overflow-hidden -mt-20">
                             <img src="./images/fondoV.svg" alt="" />
                         </div>
+                </section>
+                <section className="w-[100vw] mt-20">
+                    <ul >
+                        <li className="conteiner_info_col h-40" >
+                                <img className="h-20" src="./images/iconos/sobre.svg" alt="" />
+                            
+                            <div className=" flex justify-center mt-2">
+                                <img className="h-20" src="./images/frases/valor.svg" alt="" />
+                            </div>
+                            <div className=" text-xl font-serif text-center -mt-5" >
+                                <p>
+                                    $35.000 - adultos
+                                </p>
+                                <p>
+                                    $8.000 - de 3 a 8 años
+                                </p>
+                                <p className=" font-cormorant">
+                                    Hasta el xx/xx<br />
+                                    Alias: candeyadri
+                                </p>
+                            </div>
+                            <div>
+                                <img src="" alt="" />
+                            </div>
+                        </li>
+                    </ul>
                 </section>
             </main>
         </>
