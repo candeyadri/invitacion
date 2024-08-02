@@ -18,7 +18,11 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'fondoVerde': 'url(./images/fondoV.svg)',
+        'fondoVerde': 'url(./images/fondoV_4.svg)',
+        'fotoFondo': 'url(./images/fotos/fotoFondo.svg)',
+        'fondoForma': 'url(./images/fondoFormas.svg)',
+        'fotoFondo2': 'url(./images/fotos/fotoFondo.svg)',
+
       }
 
     },

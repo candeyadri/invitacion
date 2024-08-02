@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1639.63 333.9">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-family: Ranira-Light, Ranira;
+        font-size: 100.65px;
+        font-weight: 300;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        fill: #aabe99;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <path class="cls-3" d="M1631.18,116.07c-34.83-43.35-122.64-70.84-212.42-82.65-89.79-11.81-183.91-10.81-276.45-14.22C1017.65,14.61,894.3,1.91,769.35,.3c-104.84-1.35-458.15,1.99-529.54,8.06C168.42,14.43,95.4,27.89,49.83,56.25,5.45,83.88-6.22,121.99,2.87,157.24c9.08,35.25,36.77,68.5,64.17,101.25,11.8,14.1,26.58,27.41,43,40.28,75.98,59.54,346.44,21.67,419.6,16.12,68.9-5.23,140.47-11.78,208.6-4.43,953.14,102.83,917.15-164.28,892.95-194.4Z"/>
+    <text class="cls-1" transform="translate(483.11 201.58)"><tspan x="0" y="0">¡Deci</tspan><tspan class="cls-2" x="218.3" y="0">n</tspan><tspan x="277.58" y="0">os </tspan><tspan class="cls-2" x="410.04" y="0">a</tspan><tspan x="462.88" y="0">cá!</tspan></text>
+  </g>
+</svg>

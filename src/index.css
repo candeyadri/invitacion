@@ -10,12 +10,19 @@
 
 @layer components {
   .fecha {
-    @apply flex flex-col justify-center items-center font-serif  text-fondo
+    @apply flex flex-col justify-center items-center font-serif  text-fondo sm:text-4xl
   }
   .conteiner_info{
-    @apply  flex w-[100%] h-[15vh] justify-between px-10 text-base align-middle
+    @apply  flex w-[100%] h-[15vh] sm:h-[25vh] justify-between px-10 text-base sm:text-2xl align-bottom
   }
   .conteiner_info_col{
-    @apply  flex flex-col w-[100%] h-[20vh] justify-between px-10 text-base align-middle
+    @apply  flex flex-col w-[100%] mb-10 justify-between px-5  text-base sm:text-2xl align-middle
+  }
+  /* .icono_info{
+    @apply 
+  } */
+
+  .reproductor{
+    @apply my-10
   }
 }
