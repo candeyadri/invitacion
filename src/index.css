@@ -13,14 +13,14 @@
     @apply flex flex-col justify-center items-center font-serif  text-fondo sm:text-4xl
   }
   .conteiner_info{
-    @apply  flex w-[100%] h-[15vh] sm:h-[25vh] justify-between px-10 text-base sm:text-2xl align-bottom
+    @apply  flex w-[100%] h-[15vh] sm:h-[20vh] md:h-[25vh] justify-between px-10 text-base sm:text-2xl align-bottom
   }
   .conteiner_info_col{
     @apply  flex flex-col w-[100%] mb-10 justify-between px-5  text-base sm:text-2xl align-middle
   }
-  /* .icono_info{
-    @apply 
-  } */
+  .icono_info {
+    @apply h-[80%] sm:h-40 
+  }
 
   .reproductor{
     @apply my-10
