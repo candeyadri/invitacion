@@ -31,7 +31,7 @@ export default function Importante() {
                                         <img className="icono_info " src="./images/acta.svg" alt="" />
                                         <div className="pr-5 font-serif">
                                             <img className="h-[50%]"  src="./images/frases/civil.svg" alt="" />
-                                            <p className="-mt-5">14 de febrero del 2025</p>
+                                            <p className="-mt-5">14 de febrero del 2025(a confirmar)</p>
                                             <p>09:00hs - Italia 95</p>
                                         </div>
                                     </motion.li>

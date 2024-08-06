@@ -1,4 +1,4 @@
-import Fotos from "../components/Fotos";
+
 // import { motion } from "framer-motion"
 import Importante from "../components/Importante";
 import HistoriaConteiner from "../components/HistoriaConteiner";

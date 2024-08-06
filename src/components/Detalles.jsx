@@ -60,7 +60,7 @@ export default function Detalles() {
                                     $8.000 - de 3 a 8 años
                                 </p>
                                 <p className=" font-cormorant">
-                                    Hasta el xx/xx<br />
+                                    Hasta el (consultar)<br />
                                     Alias: candeyadri
                                 </p>
                             </motion.div>
