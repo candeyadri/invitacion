@@ -65,7 +65,7 @@ export default function Detalles() {
                                 </p>
                             </motion.div>
                             <div className=" mt-5 w-[100%] flex justify-center">
-                                <a className="w-[100%] flex justify-center" href="https://www.paypal.com/paypalme/candeyadri">
+                                <a className="w-[100%] flex justify-center" href="https://852u.adj.st/home/?adj_t=mqo65e0&adj_label=nav_mp_login&adj_campaign=nav_mp_login&adj_fallback=https%3A%2F%2Fwww.mercadolibre.com%2Fjms%2Fmla%2Flgz%2Flogin%3Fplatform_id%3DMP%26go%3Dhttps%253A%252F%252Fwww.mercadopago.com.ar%252F%26loginType%3Dexplicit&adj_redirect_macos=https%3A%2F%2Fwww.mercadolibre.com%2Fjms%2Fmla%2Flgz%2Flogin%3Fplatform_id%3DMP%26go%3Dhttps%253A%252F%252Fwww.mercadopago.com.ar%252F%26loginType%3Dexplicit ">
                                     <motion.img
                                     variants={variantesBotones}
                                     initial="initial" 
@@ -171,11 +171,13 @@ export default function Detalles() {
                                 <p className=" font-cormorant">
                                     Subi tu foto o video de la previa<br />
                                     asi los novios se entretienen<br />
-                                    durante la espera.
+                                    durante la espera.<br />
+                                    (Tenes que descargar la app)
+                                    Codigo: IlOn3vv2
                                 </p>
                             </motion.div>
                             <div className=" mt-5 w-[100%] flex justify-center">
-                                <a className="w-[100%] flex justify-center" href="https://www.paypal.com/paypalme/candeyadri">
+                                <a className="w-[100%] flex justify-center" href="https://onelifesocial.page.link/xMwG ">
                                     <motion.img
                                     variants={variantesBotones}
                                     initial="initial" 
@@ -185,6 +187,62 @@ export default function Detalles() {
                                         delay: 0.5,
                                         duration: 1}
                                     } className="w-[80%] sm:w-[40%]" src="./images/botones/botonSubir.svg" alt="" />
+                                </a>
+                            </div>
+                        </li>
+                        <li className="conteiner_info_col" >
+                                <motion.img 
+                                variants={variantesIcones}
+                                initial="initial" 
+                                whileInView="whileInView" 
+                                transition={{
+                                    ease: "easeInOut",
+                                    delay: 0.2,
+                                    duration: 0.5,}
+                                } className="h-20 sm:h-32" src="./images/iconos/iconoVaso.svg" alt="" />
+                            
+                            <div className=" flex justify-center mt-2">
+                                <motion.img
+                                variants={variantesFrases}
+                                initial="initial" 
+                                whileInView="whileInView"
+                                transition={{
+                                    ease: "easeInOut",
+                                    delay: 0.4,
+                                    duration: 0.5,}
+                                } className="h-14 my-4 sm:h-28" src="./images/frases/tragos.svg" alt="" />
+                            </div>
+                            <motion.div
+                            initial={{ opacity: 0}}
+                            whileInView={{ opacity: 1 }}
+                            
+                                transition={{
+                                    ease: "easeInOut",
+                                    delay: 0.4,
+                                    duration: 0.5,}
+                                }className=" text-xl sm:text-3xl font-serif text-center -mt-5" >
+                                <p>
+                                Ayudanos a preparar la barra
+                                </p>
+                                <p>
+                                la barra
+                                </p>
+                                <p className=" font-cormorant">
+                                Contanos cual es tu  <br />
+                                trago favotito y el que no puede faltar<br />
+                                </p>
+                            </motion.div>
+                            <div className=" mt-5 w-[100%] flex justify-center">
+                                <a className="w-[100%] flex justify-center" href="https://docs.google.com/forms/d/e/1FAIpQLSeCAfJbF0NhO1TQ1yHM0qCsKotizsgFBCI9kprkWkehC_tbvQ/viewform?usp=sf_link">
+                                    <motion.img
+                                    variants={variantesBotones}
+                                    initial="initial" 
+                                    whileInView="whileInView"
+                                    transition={{
+                                        ease: "easeInOut",
+                                        delay: 0.5,
+                                        duration: 1}
+                                    } className="w-[80%] sm:w-[40%]" src="./images/botones/BotonContanos.svg" alt="" />
                                 </a>
                             </div>
                         </li>
@@ -237,7 +295,7 @@ export default function Detalles() {
                                     </p>
                                 </motion.div>
                                 <div className=" mt-5 w-[100%] flex justify-center mb-16">
-                                    <a className="w-[100%] flex justify-center" href="https://www.paypal.com/paypalme/candeyadri">
+                                    <a className="w-[100%] flex justify-center" href="https://852u.adj.st/home/?adj_t=mqo65e0&adj_label=nav_mp_login&adj_campaign=nav_mp_login&adj_fallback=https%3A%2F%2Fwww.mercadolibre.com%2Fjms%2Fmla%2Flgz%2Flogin%3Fplatform_id%3DMP%26go%3Dhttps%253A%252F%252Fwww.mercadopago.com.ar%252F%26loginType%3Dexplicit&adj_redirect_macos=https%3A%2F%2Fwww.mercadolibre.com%2Fjms%2Fmla%2Flgz%2Flogin%3Fplatform_id%3DMP%26go%3Dhttps%253A%252F%252Fwww.mercadopago.com.ar%252F%26loginType%3Dexplicit ">
                                         <motion.img
                                         variants={variantesBotones}
                                         initial="initial" 
