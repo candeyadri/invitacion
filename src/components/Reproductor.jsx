@@ -4,17 +4,17 @@ import "@madzadev/audio-player/dist/index.css";
 export const Reproductor = () => {
     const tracks = [
         {
-            url: "public/mp3/This Will Be (An Everlasting Love).mp3",
+            url: "mp3/This Will Be (An Everlasting Love).mp3",
             title: "This Will Be (An Everlasting Love)",
             tags: ["Story", "Love"],
           },
         {
-          url: "public/mp3/New West - Those Eyes.mp3",
+          url: "mp3/New West - Those Eyes.mp3",
           title: "New West - Those Eyes",
           tags: ["Story", "Love"],
         },
         {
-          url: "public/mp3/James Arthur - A Thousand Years.mp3",
+          url: "mp3/James Arthur - A Thousand Years.mp3",
           title: "James Arthur - A Thousand Years",
           tags: ["Story", "Love"],
         }
