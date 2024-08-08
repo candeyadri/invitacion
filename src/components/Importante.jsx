@@ -29,13 +29,11 @@ export default function Importante() {
                                         }
                                         className="conteiner_info">
                                         <img className="icono_info " src="./images/acta.svg" alt="" />
-                                        <div className="pr-5 font-serif">
+                                        <div className="font-serif text-right">
                                             <img className="h-[50%]"  src="./images/frases/civil.svg" alt="" />
                                             <p className="-mt-5">Posible fecha:<br />
                                             del 12 al 14 <br />
-                                            de febrero del 2025<br />
-                                            (a confirmar)<br />
-                                            Italia 95</p>
+                                            de febrero del 2025</p>
                                         </div>
                                     </motion.li>
                                     <motion.li
@@ -50,7 +48,7 @@ export default function Importante() {
                                         }
                                         className="conteiner_info">
                                         <img  className="icono_info h-[80%] sm:h-[20vh]" src="./images/iglesia.svg" alt="" />
-                                        <div className="pr-5 font-serif">
+                                        <div className="font-serif text-right">
                                             <img className="h-[50%]" src="./images/frases/ceremonia.svg" alt="" />
                                             <p>15 de febrero del 2025</p>
                                             <p>20:00hs - Lavalle 930</p>
@@ -69,7 +67,7 @@ export default function Importante() {
                                         }
                                         className="conteiner_info">
                                         <img className="h-[80%] icono_info" src="./images/iconos/fiesta_icono.svg" alt="" />
-                                        <div className="pr-5 font-serif">
+                                        <div className="font-serif text-right">
                                             <img className="h-[50%]" src="./images/frases/fiesta.svg" alt="" />
                                             <p>Al finalizar la<br />
                                             ceremonia-Club Social<br />
