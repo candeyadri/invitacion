@@ -16,7 +16,7 @@ export default function Importante() {
                                 }
                                 className=" w-[75vw] sm:w-[40vw] mx-auto -mt-5" src="./images/carteles/importante.svg" alt="" />
                             <section >
-                                <ul className=" space-y-6 mt-10 sm:w-[50vw] mx-auto bg-verde">
+                                <ul className=" space-y-6 mt-10 sm:w-[50vw] mx-auto ">
                                     <motion.li
                                         initial={{ opacity: 0 }}
                                         whileInView={{ opacity: 1 }}
