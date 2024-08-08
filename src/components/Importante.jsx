@@ -31,9 +31,11 @@ export default function Importante() {
                                         <img className="icono_info " src="./images/acta.svg" alt="" />
                                         <div className="pr-5 font-serif">
                                             <img className="h-[50%]"  src="./images/frases/civil.svg" alt="" />
-                                            <p className="-mt-5">Posible fecha:14 de febrero del 2025(a confirmar)</p>
-                                            <p>del 12 al 14 de febrero del 2025(a confirmar)</p>
-                                            <p>09:00hs - Italia 95</p>
+                                            <p className="-mt-5">Posible fecha:<br />
+                                            del 12 al 14 <br />
+                                            de febrero del 2025<br />
+                                            (a confirmar)<br />
+                                            Italia 95</p>
                                         </div>
                                     </motion.li>
                                     <motion.li
@@ -69,9 +71,9 @@ export default function Importante() {
                                         <img className="h-[80%] icono_info" src="./images/iconos/fiesta_icono.svg" alt="" />
                                         <div className="pr-5 font-serif">
                                             <img className="h-[50%]" src="./images/frases/fiesta.svg" alt="" />
-                                            <p>Al finalizar la</p>
-                                            <p>ceremonia-Club Social</p>
-                                            <p>Guardias Nacional 50</p>
+                                            <p>Al finalizar la<br />
+                                            ceremonia-Club Social<br />
+                                            Guardias Nacionales 50</p>
                                         </div>
                                     </motion.li>
                                     

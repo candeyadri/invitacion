@@ -42,7 +42,7 @@ export default function Fotos() {
             }
         }
         className="fotos_grid">
-            <img src="./images/fotos/foto5.jpg" alt="" />
+            <img src="./images/fotos/foto7.jpg" alt="" />
         </motion.div>
     </section>
   )
