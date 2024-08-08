@@ -238,7 +238,7 @@ export default function Detalles() {
                                 </p>
                                 <p className=" font-cormorant">
                                 Contanos cual es tu  <br />
-                                trago favotito y el que no puede faltar<br />
+                                trago favorito y el que no puede faltar<br />
                                 </p>
                             </motion.div>
                             <div className=" mt-5 w-[100%] flex justify-center">
