@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 
 export default function Importante() {
   return (
-    <section className=" w-[100vw] h-[75vh] sm:h-[120vh]  relative bg-fondoVerde bg-cover  -mt-20 sm:-mt-32">
+    <section className=" w-[100vw] h-[85vh] sm:h-[120vh]  relative bg-fondoVerde bg-cover  -mt-20 sm:-mt-32">
                         <div className="    w-[100vw] absolute z-10">
                             <motion.img
                                 initial={{ opacity: 0 }}
