@@ -2,6 +2,18 @@ import {  motion } from "framer-motion"
 import Fotos from "./Fotos"
 
 export default function Detalles() {
+    const copiarAlias = (e) => {
+        e.preventDefault();
+        navigator.clipboard.writeText("candeyadri")
+        .then(() => {
+            window.open('https://852u.adj.st/home/?adj_t=mqo65e0&adj_label=nav_mp_login&adj_campaign=nav_mp_login&adj_fallback=https%3A%2F%2Fwww.mercadolibre.com%2Fjms%2Fmla%2Flgz%2Flogin%3Fplatform_id%3DMP%26go%3Dhttps%253A%252F%252Fwww.mercadopago.com.ar%252F%26loginType%3Dexplicit&adj_redirect_macos=https%3A%2F%2Fwww.mercadolibre.com%2Fjms%2Fmla%2Flgz%2Flogin%3Fplatform_id%3DMP%26go%3Dhttps%253A%252F%252Fwww.mercadopago.com.ar%252F%26loginType%3Dexplicit ')
+          })
+          .catch(err => {
+            console.error('Error al copiar al portapapeles:', err)
+          })
+        
+        
+    }
 
     const variantesIcones = {
         initial:{ opacity: 0, y: 100 },
@@ -64,8 +76,8 @@ export default function Detalles() {
                                     Alias: candeyadri
                                 </p>
                             </motion.div>
-                            <div className=" mt-5 w-[100%] flex justify-center">
-                                <a className="w-[100%] flex justify-center" href="https://852u.adj.st/home/?adj_t=mqo65e0&adj_label=nav_mp_login&adj_campaign=nav_mp_login&adj_fallback=https%3A%2F%2Fwww.mercadolibre.com%2Fjms%2Fmla%2Flgz%2Flogin%3Fplatform_id%3DMP%26go%3Dhttps%253A%252F%252Fwww.mercadopago.com.ar%252F%26loginType%3Dexplicit&adj_redirect_macos=https%3A%2F%2Fwww.mercadolibre.com%2Fjms%2Fmla%2Flgz%2Flogin%3Fplatform_id%3DMP%26go%3Dhttps%253A%252F%252Fwww.mercadopago.com.ar%252F%26loginType%3Dexplicit ">
+                            <div onClick={copiarAlias} className=" mt-5 w-[100%] flex justify-center">
+                                <a  className="w-[100%] flex justify-center" href="https://852u.adj.st/home/?adj_t=mqo65e0&adj_label=nav_mp_login&adj_campaign=nav_mp_login&adj_fallback=https%3A%2F%2Fwww.mercadolibre.com%2Fjms%2Fmla%2Flgz%2Flogin%3Fplatform_id%3DMP%26go%3Dhttps%253A%252F%252Fwww.mercadopago.com.ar%252F%26loginType%3Dexplicit&adj_redirect_macos=https%3A%2F%2Fwww.mercadolibre.com%2Fjms%2Fmla%2Flgz%2Flogin%3Fplatform_id%3DMP%26go%3Dhttps%253A%252F%252Fwww.mercadopago.com.ar%252F%26loginType%3Dexplicit ">
                                     <motion.img
                                     variants={variantesBotones}
                                     initial="initial" 
@@ -172,7 +184,7 @@ export default function Detalles() {
                                     Subi tu foto o video de la previa<br />
                                     asi los novios se entretienen<br />
                                     durante la espera.<br />
-                                    (Tenes que descargar la app)
+                                    (Tenes que descargar la app)<br />
                                     Codigo: IlOn3vv2
                                 </p>
                             </motion.div>
@@ -223,9 +235,6 @@ export default function Detalles() {
                                 }className=" text-xl sm:text-3xl font-serif text-center -mt-5" >
                                 <p>
                                 Ayudanos a preparar la barra
-                                </p>
-                                <p>
-                                la barra
                                 </p>
                                 <p className=" font-cormorant">
                                 Contanos cual es tu  <br />
