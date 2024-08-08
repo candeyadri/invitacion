@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://adriel2323.github.io/cande+adri",
+  "homepage": "http://candeyadri.github.io/invitacion",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
