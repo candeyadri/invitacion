@@ -79,7 +79,7 @@ export default function Importante() {
                                             </div>
                                             <p className="-mt-2">Al finalizar la<br />
                                             ceremonia-Club Social<br />
-                                            Guardias Nacionales 50</p>
+                                            Guardias Nacionales 87</p>
                                         </div>
                                     </motion.li>
                                     
