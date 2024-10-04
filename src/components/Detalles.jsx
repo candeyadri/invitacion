@@ -66,10 +66,10 @@ export default function Detalles() {
                                 }
                             className=" text-xl sm:text-3xl font-serif text-center -mt-5" >
                                 <p>
-                                    $35.000 - adultos
+                                    $38.000 - adultos
                                 </p>
                                 <p>
-                                    $8.000 - de 3 a 8 años
+                                    $10.000 - de 3 a 8 años
                                 </p>
                                 <p className=" font-cormorant">
                                     Hasta el (consultar)<br />
