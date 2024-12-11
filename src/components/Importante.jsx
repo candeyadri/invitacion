@@ -57,7 +57,7 @@ export default function Importante() {
                                                 <img className="" src="./images/frases/ceremonia.svg" alt="" />
                                             </div>
                                             <p className="-mt-2">15 de febrero del 2025</p>
-                                            <p>20:00hs - Lavalle 930</p>
+                                            <p>19:30hs - Lavalle 930</p>
                                         </div>
                                     </motion.li>
                                     
