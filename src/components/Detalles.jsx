@@ -66,13 +66,14 @@ export default function Detalles() {
                                 }
                             className=" text-xl sm:text-3xl font-serif text-center -mt-5" >
                                 <p>
-                                    $38.000 - adultos
+                                    $39.000 - adultos
                                 </p>
                                 <p>
-                                    $11.000 - de 3 a 8 años
+                                    $12.000 - de 3 a 8 años
                                 </p>
                                 <p className=" font-cormorant">
-                                    Hasta el (consultar)<br />
+                                    Fecha limite para <br />
+                                    abonar 31/01 <br />
                                     Alias: candeyadri
                                 </p>
                             </motion.div>
