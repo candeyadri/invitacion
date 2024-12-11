@@ -34,9 +34,9 @@ export default function Importante() {
 
                                                 <img   src="./images/frases/civil.svg" alt="" />
                                             </div>
-                                            <p className="-mt-2">Posible fecha:<br />
-                                            del 12 al 14 <br />
-                                            de febrero del 2025</p>
+                                            <p className="-mt-2">Fecha:<br />
+                                            14 de febrero<br />
+                                            13hs </p>
                                         </div>
                                     </motion.li>
                                     <motion.li
