@@ -66,7 +66,7 @@ export default function Detalles() {
                                 }
                             className=" text-xl sm:text-3xl font-serif text-center -mt-5" >
                                 <p>
-                                    $39.000 - adultos
+                                    $41.000 - adultos
                                 </p>
                                 <p>
                                     $12.000 - de 3 a 8 años
