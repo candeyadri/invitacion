@@ -36,7 +36,7 @@ export default function Importante() {
                                             </div>
                                             <p className="-mt-2">Fecha:<br />
                                             14 de febrero<br />
-                                            13hs </p>
+                                            10:50hs </p>
                                         </div>
                                     </motion.li>
                                     <motion.li
